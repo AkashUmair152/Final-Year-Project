@@ -8,10 +8,10 @@ const Header = () => {
           <Link href="/first-link" legacyBehavior>
             <a className="mr-5 hover:text-gray-900">News</a>
           </Link>
-          <Link href="/second-link" legacyBehavior>
+          <Link href="/About" legacyBehavior>
             <a className="mr-5 hover:text-gray-900">About</a>
           </Link>
-          <Link href="/third-link" legacyBehavior>
+          <Link href="/Contact" legacyBehavior>
             <a className="mr-5 hover:text-gray-900">Contact</a>
           </Link>
         </nav>
