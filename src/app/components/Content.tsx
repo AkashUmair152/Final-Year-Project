@@ -5,6 +5,7 @@ const Content = () => {
     <>
      <section className="text-gray-600 body-font">
   <div className="container px-5 py-6 mx-auto">
+    <h1 className=' text-3xl text-black text-center mb-12 font-bold'>Recent News updates</h1>
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/3">
         <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
