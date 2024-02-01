@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -5,10 +6,10 @@ const Footer = () => {
     <footer className="flex flex-col space-y-10 justify-center m-10">
 
     <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
-        <a className="hover:text-gray-900" href="#">News</a>
-        <a className="hover:text-gray-900" href="#">About</a>
-        <a className="hover:text-gray-900" href="#">Gallery</a>
-        <a className="hover:text-gray-900" href="#">Contact</a>
+        <Link className="hover:text-gray-900" href={'/'} >News</Link>
+        <Link className="hover:text-gray-900" href={'/About'} >About</Link>
+        <Link className="hover:text-gray-900" href={''} >Gallery</Link>
+        <Link className="hover:text-gray-900" href={'/Contact'} >Contact</Link>
     </nav>
 
     <div className="flex justify-center space-x-5">

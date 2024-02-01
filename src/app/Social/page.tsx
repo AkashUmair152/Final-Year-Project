@@ -1,11 +1,16 @@
 import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import Hero from '../components/Hero'
 
-const Content = () => {
+const Social = () => {
   return (
     <>
-<section className="text-gray-600 body-font">
+    <Header/>
+    <Hero/>
+    <section className="text-gray-600 body-font">
   <div className="container px-5 py-6 mx-auto">
-    <h1 className=' text-3xl text-black text-center mb-12 font-bold'>Recent News updates</h1>
+    <h1 className=' text-3xl text-black text-center mb-12 font-bold'>Social News</h1>
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/3">
         <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
@@ -338,8 +343,9 @@ const Content = () => {
     </div>
   </div>
 </section>
+    <Footer/>
     </>
   )
 }
 
-export default Content
+export default Social
