@@ -1,9 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const Contact = () => {
   return (
     <>
+    <Header/>
     <div className="container  mx-auto px-2 md:px-4">
 
           <section className="mb-6">
