@@ -6,13 +6,13 @@ const Contact = () => {
   return (
     <>
     <Header/>
-    <div className="container  mx-auto px-2 md:px-4">
+    <div className="container mt-12 mx-auto px-2 md:px-4">
 
           <section className="mb-6">
 
               <div className="flex justify-center">
                   <div className="text-center md:max-w-xl lg:max-w-3xl">
-                      <h2 className="mb-1 px-6 text-4xl font-bold">
+                      <h2 className="mb-12 px-6 text-4xl font-bold">
                           Let's Talk
                       </h2>
                   </div>
