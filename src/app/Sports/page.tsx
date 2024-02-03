@@ -10,6 +10,7 @@ import pic3 from "../../../public/img/3.jpeg";
 import pic4 from "../../../public/img/4.jpg";
 import pic5 from "../../../public/img/5.jpg";
 import pic6 from "../../../public/img/6.jpeg";
+import Subscribe from '../components/Subscribe'
 
 const Sports = () => {
   return (
@@ -244,6 +245,7 @@ const Sports = () => {
       </div>
       
     </>
+    <Subscribe/>
     <Footer /></>
   )
 }

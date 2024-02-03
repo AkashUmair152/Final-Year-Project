@@ -11,6 +11,7 @@ import pic4 from "../../../public/img/4.jpg";
 import pic5 from "../../../public/img/5.jpg";
 import pic6 from "../../../public/img/6.jpeg";
 import Link from 'next/link'
+import Subscribe from '../components/Subscribe'
 const Political = () => {
   return (
     <>
@@ -244,6 +245,7 @@ const Political = () => {
       </div>
       
     </>
+    <Subscribe/>
     <Footer/>
     </>
   )

@@ -6,7 +6,7 @@ import Subscribe from "./components/Subscribe";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CompanyIcon from "./components/CompanyIcon";
-import Gallery from "./components/Gallery";
+
 
 export default function Home() {
   return (
@@ -15,7 +15,6 @@ export default function Home() {
     <Hero/>
     <Content/>
     <CompanyIcon/>
-   <Gallery/>
     <Team/>
     <Subscribe/>
     <Footer/>
