@@ -1,26 +1,32 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+import news from "../../../public/img/news2.jpg"
 
 const Hero = () => {
   return (
     <section className="text-gray-600 body-font">
-  <div className="container px-5 py-1 mx-auto flex flex-wrap">
-    <div className="lg:w-full mx-auto">
-      <div className="flex flex-wrap w-full bg-green-100 py-32 px-10 relative mb-4">
-        {/* <img alt="gallery" className="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/820x340"> */}
-        <div className="text-center relative z-10 w-full">
-          <h2 className="text-2xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
-          <p className="leading-relaxed">Skateboard +1 mustache fixie paleo lumbersexual.</p>
-          <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
+      <div className="container px-5 py-1 mx-auto flex flex-wrap">
+        <div className="lg:w-full mx-auto">
+          <div className="relative bg-slate-400 py-32 px-10">
+            <Image
+              src={news}
+              alt="Shooting Stars"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="center"
+              className="opacity-40 absolute inset-0"
+            />
+            <div className="text-center relative z-10 w-full">
+              <h2 className="text-2xl title-font mb-2 text-white font-bold">News Updates </h2>
+              <p className="leading-relaxed font-semibold text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
+              
+            </div>
+          </div>
         </div>
       </div>
-      
-    </div>
-  </div>
-</section>
+    </section>
   )
 }
 
