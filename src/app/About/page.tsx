@@ -1,6 +1,9 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import about from '../../../public/img/news11.jpeg'
+import Image from 'next/image'
+import Subscribe from '../components/Subscribe'
 
 const About = () => {
   return (
@@ -13,44 +16,60 @@ const About = () => {
 
     <div className="flex flex-wrap items-center mt-20 text-center">
         <div className="w-full md:w-3/5 lg:w-1/2 px-4">
-            {/* <img src="https://picsum.photos/400/240" alt="gem" className="inline-block rounded shadow-lg border border-merino-400"> */}
-        </div>
+        <Image
+                  src={about}
+                  alt="Shooting Stars"
+                  width={700}
+                  height={300}
+                  objectFit="cover"
+                  objectPosition="center"
+                 
+                />        </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
             <h3 className="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
-                Simple integration
+            Lorem Ipsum
             </h3>
             <p className="sm:text-lg mt-6">
-                Use the LocaleData gem to download translations directly into your Ruby on Rails
-                projects using the provided command line interface. Just create a project and follow
-                the step-by-step instructions.
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
             </p>
         </div>
     </div>
 
     <div className="flex flex-wrap items-center mt-20 text-left">
         <div className="w-full md:w-3/5 lg:w-1/2 px-4">
-            {/* <img src="https://picsum.photos/400/240" alt="project members" className="inline-block rounded shadow-lg border border-merino-400"> */}
-        </div>
+        <Image
+                  src={about}
+                  alt="Shooting Stars"
+                  width={700}
+                  height={300}
+                  objectFit="cover"
+                  objectPosition="center"
+             
+                />           </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
             <h3 className="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
-                Easy collaboration
+            Lorem Ipsum
             </h3>
             <p className="sm:text-lg mt-6">
-                All LocaleData projects are private. Each project can have multiple collaborators
-                with different roles and access permissions. You determine who can see and edit
-                your translations. Just add admins, developers, translators and configure their
-                access rights.
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
             </p>
         </div>
     </div>
 
     <div className="flex flex-wrap items-center mt-20 text-left">
         <div className="w-full md:w-3/5 lg:w-1/2 px-4">
-            {/* <img src="https://picsum.photos/400/240" alt="editor" className="inline-block rounded shadow-lg border border-merino-400"> */}
-        </div>
+        <Image
+                  src={about}
+                  alt="Shooting Stars"
+                  width={700}
+                  height={300}
+                  objectFit="cover"
+                  objectPosition="center"
+                 
+                />           </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
             <h3 className="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
-                No more syntax errors
+            Lorem Ipsum
             </h3>
             <p className="sm:text-lg mt-6">
                 LocaleData provides you easy import/export functions for your YAML files.
@@ -63,27 +82,33 @@ const About = () => {
 
     <div className="flex flex-wrap items-center mt-20 text-center">
         <div className="w-full md:w-3/5 lg:w-1/2 px-4">
-            {/* <img src="https://picsum.photos/400/240" alt="bulk editing" className="inline-block rounded shadow-lg border border-merino-400"> */}
-        </div>
+        <Image
+                  src={about}
+                  alt="Shooting Stars"
+                  width={700}
+                  height={300}
+                  objectFit=""
+                  objectPosition="center"
+              
+                />           </div>
         <div className="w-full md:w-2/5 lg:w-1/2 px-4 md:order-first text-center md:text-left lg:pr-12">
             <h3 className="font-bold mt-8 text-xl md:mt-0 sm:text-2xl">
-                Bulk editing
+            Lorem Ipsum
             </h3>
             <p className="sm:text-lg mt-6">
-                Do you need to change the path of many translation keys at once? No problem, just
-                use the bulk editing feature and enjoy the results.
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
             </p>
         </div>
     </div>
 
 </div>
 {/* over vision  */}
-<section className="bg-gray-100 py-16">
+{/* <section className="bg-gray-100 py-16">
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-gray-900">Our Vision</h2>
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" className="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -93,12 +118,11 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                     <h3 className="text-lg font-medium text-gray-900">Mission</h3>
-                    <p className="mt-2 text-base text-gray-500">We aim to make the world a better place through innovation
-                        and collaboration.</p>
+                    <p className="mt-2 text-base text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
                 </div>
             </div>
             <div>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" className="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -108,12 +132,11 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                     <h3 className="text-lg font-medium text-gray-900">Values</h3>
-                    <p className="mt-2 text-base text-gray-500">We believe in honesty, integrity, and respect for all
-                        individuals.</p>
+                    <p className="mt-2 text-base text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
                 </div>
             </div>
             <div>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" className="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -124,14 +147,14 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                     <h3 className="text-lg font-medium text-gray-900">Vision</h3>
-                    <p className="mt-2 text-base text-gray-500">We envision a world where technology is used to solve the
-                        most pressing issues facing humanity and improve people's lives.</p>
+                    <p className="mt-2 text-base text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text..</p>
                 </div>
             </div>
         </div>
 
     </div>
-</section>
+</section> */}
+<Subscribe/>
 <Footer/>
     </>
   )

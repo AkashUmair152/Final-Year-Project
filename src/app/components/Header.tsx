@@ -120,9 +120,9 @@ const Header = () => {
             </div>
             
           </Link>
-          <Link href="/About" legacyBehavior>
+          {/* <Link href="/About" legacyBehavior>
             <a className="mr-5 hover:text-gray-900">About</a>
-          </Link>
+          </Link> */}
           <Link href="/Contact" legacyBehavior>
             <a className="mr-5 hover:text-gray-900">Contact</a>
           </Link>
